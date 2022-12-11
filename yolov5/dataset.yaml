@@ -1,0 +1,14 @@
+path: ../data
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 4
+names: ['Duc', 'Tam', 'Vinh', 'XuanThanh']
+
+roboflow:
+  workspace: ute-qwwg9
+  project: faces-0lzot
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ute-qwwg9/faces-0lzot/dataset/2
