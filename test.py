@@ -27,7 +27,7 @@ result.pandas().xyxy[0]
 # result
 
 #%%
-model = torch.hub.load('ultralytics/yolov5', 'custom', path = 'yolov5/runs/train/exp/weights/best.pt', force_reload = True)
+model = torch.hub.load('ultralytics/yolov5', 'custom', path = 'yolov5/runs/train/exp3/weights/best.pt', force_reload = True)
 
 #%%
 cap = cv2.VideoCapture(0)

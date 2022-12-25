@@ -7,8 +7,8 @@ import os
 import time
 
 def main_app(name):
-    model = torch.hub.load('ultralytics/yolov5', 'custom', path = 'yolov5/runs/train/exp/weights/best.pt', force_reload = True)
-    model.conf = 0.65
+    model = torch.hub.load('ultralytics/yolov5', 'custom', path = 'yolov5/runs/train/exp3/weights/best.pt', force_reload = True)
+    model.conf = 0.8
     
     cap = cv2.VideoCapture(0)
     while cap.isOpened():
